@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
+  /* Standard configuration for Netlify/Vercel */
   images: {
     unoptimized: true,
   },
